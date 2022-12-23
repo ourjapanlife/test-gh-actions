@@ -9,6 +9,6 @@ jobs:
       with:
         action-token: "${{ secrets.MILESTONE_ACTION }}"
         project-url: "https://github.com/orgs/ourjapanlife/projects/4"
-        column-name: "🔖 Ready"
+        column-name: "Ready"
         milestone-name: "Milestone with emoji 😺"
         columns-to-ignore: "🏗 In progress,👀 In review,✅ Done"
