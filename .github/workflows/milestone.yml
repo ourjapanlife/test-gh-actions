@@ -5,7 +5,7 @@ jobs:
   Move_Milestoned_Issue_On_Project_Board:
     runs-on: ubuntu-latest
     steps:
-    - uses: ann-kilzer/move-labeled-or-milestoned-issue@v2.0.0-alpha
+    - uses: ann-kilzer/move-labeled-or-milestoned-issue@v2.0.0-alpha.1
       with:
         action-token: "${{ secrets.MILESTONE_ACTION }}"
         project-url: "https://github.com/orgs/ourjapanlife/projects/4"
